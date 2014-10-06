@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">Arkibäss</string>
+    <string name="app_name_caps">ARKIBÄSS</string>
+    <string name="demo">This is a demo version and there is not employees included in the database</string>
+    <string name="etLogin">Login</string>
+    <string name="etPassword">Password</string>
+    <string name="btnSignin">Submit</string>
+    <string name="btnSocialauth">Social autentication</string>
+    <string name="chbxRemember">Remember me</string>
+    <string name="action_settings">Preferences</string>
+    <string name="logout">Log out</string>
+    <string name="maps">Building list</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <!-- ListView Row Labels -->
+    <string name="room_label">Room Id: </string>
+    <string name="desc_label">Description: </string>
+    <string name="department_label">Department: </string>
+    <string name="standard_label">Standard: </string>
+    <string name="countEm_label">Employee asigned: </string>
+    <string name="telephone_label">Telephone: </string>
+    <string name="afmRole_label">Role Id: </string>
+    <string name="restrictions_label">Restrictions: </string>
+    <string name="login_label">User Id: </string>
+    <string name="password_label">Password: </string>
+    
+    <string-array name="floors_array">
+        <item>Ground Floor</item>
+        <item>First Floor</item>
+        <item>Second Floor</item>
+    </string-array>
+    
+    <string-array name="departments_array">
+        <item>Art_History_department</item>
+        <item>Building_department</item>
+        <item>Facilities_department</item>
+        <item>Final_Project_department</item>
+        <item>Graphic_Design_department</item>
+        <item>History_of_Architecture_department</item>
+        <item>Maths_department</item>
+        <item>Physics_department</item>
+        <item>Staff_department</item>
+        <item>Structures_department</item>
+    </string-array>
+
+    <string-array name="standard_array">
+        <item>Cafe</item>
+        <item>Classroom</item>
+        <item>Concierge</item>
+        <item>Laboratory</item>
+        <item>Library</item>
+        <item>Office</item>
+        <item>Seminary</item>
+        <item>SOffice</item>
+        <item>Stairs</item>
+        <item>Stock</item>
+        <item>Toilet</item>
+    </string-array>
+    
+    <!-- GCM -->
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+
+</resources>
