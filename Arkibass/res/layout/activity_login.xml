@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true" >
+
+    <RelativeLayout
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:paddingTop="20dp" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/app_name_caps"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/logo"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="500dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/login2" />
+
+            <EditText
+                android:id="@+id/editTextLogin"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_alignTop="@+id/imageView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/textlogin"
+                android:hint="@string/etLogin"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/editTextLogin"
+                android:layout_below="@+id/editTextLogin"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/textloginkey"
+                android:hint="@string/etPassword"
+                android:password="true"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/login_error"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_alignLeft="@+id/editTextPassword"
+                android:layout_below="@+id/editTextPassword"
+                android:textColor="#e30000"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonSignIn"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_alignBottom="@+id/login_error"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/blue_button"
+                android:onClick="openMenus"
+                android:text="@string/btnSignin"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/sharebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/btnSocialauth"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</ScrollView>

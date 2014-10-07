@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/mapsDialogName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+        android:gravity="center_horizontal"
+            android:textColor="@color/text_subtitle" />
+
+        <TextView
+            android:id="@+id/mapsDialogAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+            android:textColor="@color/text_subtitle" />
+
+        <TextView
+            android:id="@+id/mapsDialogCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+            android:textColor="@color/text_subtitle" />
+
+        <TextView
+            android:id="@+id/mapsDialogState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+            android:textColor="@color/text_subtitle" />
+
+        <TextView
+            android:id="@+id/mapsDialogCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+            android:textColor="@color/text_subtitle" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/mapsDialogButtonBack"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="Back"
+        android:textAlignment="gravity" />
+
+    <Button
+        android:id="@+id/mapsDialogButtonOK"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/linearLayout1"
+        android:text="Ok"
+        android:textAlignment="gravity" />
+
+</RelativeLayout>

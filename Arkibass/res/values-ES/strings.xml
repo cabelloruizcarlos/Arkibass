@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="app_name">Arkibäss</string>
+    <string name="app_name_caps">ARKIBÄSS</string>
+    <string name="demo">Esta es una demo y no contiene informacion sobre empleados</string>
+    <string name="etLogin">Usuario</string>
+    <string name="etPassword">Contraseña</string>
+    <string name="btnSignin">Entrar</string>
+    <string name="btnSocialauth">Redes sociales</string>
+    <string name="chbxRemember">Recordar</string>
+    <string name="action_settings">Preferencias</string>
+     <string name="logout">Salir</string>
+     <string name="maps">Lista de edificios</string>
+    <string name="drawer_open">Abrir navegador</string>
+    <string name="drawer_close">Cerrar navegador</string>
+    
+    <!-- ListView Labels -->
+    <string name="room_label">Código de espacio: </string>
+    <string name="desc_label">Descripción: </string>
+    <string name="department_label">Departamento: </string>
+    <string name="standard_label">Categoría de espacio: </string>
+    <string name="countEm_label">Empleados asignados: </string>
+    <string name="telephone_label">Teléfono: </string>
+    <string name="afmRole_label">Role Id: </string>
+    <string name="restrictions_label">Restricciones: </string>
+    <string name="login_label">Usuario: </string>
+    <string name="password_label">Contraseña: </string>
+    
+
+    <string-array name="floors_array">
+        <item>Planta baja</item>
+        <item>Primera planta</item>
+        <item>Segunda planta</item>
+    </string-array>
+    
+    <string-array name="departments_array">
+        <item>Departamento de historia del arte</item>
+        <item>Departamento de Construcción</item>
+        <item>Departamento de Instalaciones</item>
+        <item>Departamento de Proyecto Final de Carrera</item>
+        <item>Departamento de Diseño Gráfico</item>
+        <item>Departamento de Historia de la Arquitectura</item>
+        <item>Departamento de Matemáticas</item>
+        <item>Departamento de Física</item>
+        <item>Departamento de personal</item>
+        <item>Departamento de Estructuras</item>
+    </string-array>
+    
+        <string-array name="standard_array">
+        <item>Cafetería</item>
+        <item>Aula</item>
+        <item>Consergeria</item>
+        <item>Laboratorio</item>
+        <item>Biblioteca</item>
+        <item>Despachos</item>
+        <item>Seminario</item>
+        <item>Secretaria</item>
+        <item>Escaleras</item>
+        <item>Almacenes</item>
+        <item>Baños</item>
+    </string-array>
+</resources>
